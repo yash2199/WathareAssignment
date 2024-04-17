@@ -1,0 +1,35 @@
+
+.upper-bar {
+  width: 80vw;
+  height:30px;
+  border-style: solid;
+  border-width: 2px 0 0 1px;
+  position: relative;
+}
+
+.side-buttons{
+  gap:10px;
+  position: absolute;  
+  right:0px;
+}
+.side-buttons li{
+  list-style:  none ;
+  padding:5px;
+  border-radius: 5px;
+}
+
+.side-buttons li, li i {
+  font-size: 15px;
+}
+.dropdown-toggle::after { 
+  content: none; 
+} 
+
+/* Data plotting with timestamps  */
+
+.data-plotting{
+  height:30px;
+  width:95%;
+  margin-inline:auto;
+  border-bottom: 2px solid black;
+}
